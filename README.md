@@ -8,7 +8,7 @@ This project demonstrates a real-world Linux Enterprise scenario where a System 
 Infrastructure Design & Concepts
 In an enterprise production environment, granting direct root access to users is highly discouraged for security reasons. Instead, this lab implements **Role-Based Access Control (RBAC)** by grouping users under specific project requirements:
 
-Primary Group:** Each created user automatically gets their own primary group for isolated files.
+Primary Group: Each created user automatically gets their own primary group for isolated files.
 Secondary (Supplementary) Group:** Users are added to the `dev_team` secondary group to access shared project files without changing their primary identity.
 
 ---
@@ -37,5 +37,7 @@ sudo usermod -aG dev_team bob
 To ensure the infrastructure was configured correctly according to enterprise standards, I verified the users using the id utility:
 id alice
 id bob
+
+<img width="935" height="703" alt="Image" src="https://github.com/user-attachments/assets/65f324be-8d85-4d5d-8cc8-3aae4798021b" />
 
 
