@@ -12,7 +12,7 @@ Primary Group: Each created user automatically gets their own primary group for 
 Secondary (Supplementary) Group:** Users are added to the `dev_team` secondary group to access shared project files without changing their primary identity.
 
 ---
-
+```bash
  Step-by-Step Implementation
 
 Phase 1: Group and User Infrastructure Setup
@@ -37,6 +37,7 @@ sudo usermod -aG dev_team bob
 To ensure the infrastructure was configured correctly according to enterprise standards, I verified the users using the id utility:
 id alice
 id bob 
+```bash
 
 <img width="935" height="703" alt="Screenshot 2026-07-19 173634" src="https://github.com/user-attachments/assets/6ad1cdcb-0af1-4b46-b039-654eafd24fb1" />
 
