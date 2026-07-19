@@ -21,3 +21,21 @@ Creating the Project Group
 First, I created a dedicated group named `dev_team` to manage access rights for all developers collectively:
 ```bash
 sudo groupadd dev_team
+
+Next, I provisioned two regular user accounts for the new developers (alice and bob). The -m flag was explicitly used to automatically create their respective home directories (/home/alice and /home/bob):
+sudo useradd -m alice
+sudo useradd -m bob
+
+I configured secure initial passwords for both accounts using the passwd utility.
+sudo passwd alice
+sudo passwd bob
+
+To grant them development access, I appended both users to the dev_team group. I carefully used the -aG (Append Supplementary Groups) flags to prevent accidentally overwriting their existing group memberships:
+sudo usermod -aG dev_team alice
+sudo usermod -aG dev_team bob
+
+To ensure the infrastructure was configured correctly according to enterprise standards, I verified the users using the id utility:
+id alice
+id bob
+
+
