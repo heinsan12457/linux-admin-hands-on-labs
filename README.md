@@ -20,10 +20,6 @@ Phase 1: Group and User Infrastructure Setup
 Creating the Project Group
 First, I created a dedicated group named `dev_team` to manage access rights for all developers collectively:
 
-<img width="935" height="703" alt="Image" src="https://github.com/user-attachments/assets/65f324be-8d85-4d5d-8cc8-3aae4798021b" />
-
-```bash
-
 sudo groupadd dev_team
 
 Next, I provisioned two regular user accounts for the new developers (alice and bob). The -m flag was explicitly used to automatically create their respective home directories (/home/alice and /home/bob):
@@ -40,7 +36,12 @@ sudo usermod -aG dev_team bob
 
 To ensure the infrastructure was configured correctly according to enterprise standards, I verified the users using the id utility:
 id alice
-id bob
+id bob 
+
+<img width="935" height="703" alt="Screenshot 2026-07-19 173634" src="https://github.com/user-attachments/assets/6ad1cdcb-0af1-4b46-b039-654eafd24fb1" />
+
+
+
 
 
 
