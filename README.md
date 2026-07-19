@@ -9,7 +9,7 @@ Infrastructure Design & Concepts
 In an enterprise production environment, granting direct root access to users is highly discouraged for security reasons. Instead, this lab implements **Role-Based Access Control (RBAC)** by grouping users under specific project requirements:
 
 Primary Group: Each created user automatically gets their own primary group for isolated files.
-Secondary (Supplementary) Group:** Users are added to the `dev_team` secondary group to access shared project files without changing their primary identity.
+Secondary (Supplementary) Group: Users are added to the `dev_team` secondary group to access shared project files without changing their primary identity.
 
 ---
 ```bash
