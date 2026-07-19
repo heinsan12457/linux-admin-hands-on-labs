@@ -38,7 +38,8 @@ To ensure the infrastructure was configured correctly according to enterprise st
 id alice
 id bob
 
-![User Verification Result](verification.png)
+![User Verification Result](<img width="935" height="703" alt="Image" src="https://github.com/user-attachments/assets/65f324be-8d85-4d5d-8cc8-3aae4798021b" />
+)
 
 <img width="935" height="703" alt="Image" src="https://github.com/user-attachments/assets/65f324be-8d85-4d5d-8cc8-3aae4798021b" />
 
