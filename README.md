@@ -38,7 +38,7 @@ To ensure the infrastructure was configured correctly according to enterprise st
 id alice
 id bob
 
-<img width="935" height="703" alt="Image" src="https://github.com/user-attachments/assets/65f324be-8d85-4d5d-8cc8-3aae4798021b" />
+<img width="935" height="703" alt="Screenshot 2026-07-19 173634" src="https://github.com/user-attachments/assets/1789a2f8-22c6-48d2-83d6-90637be5b27b" />
 
 
 
